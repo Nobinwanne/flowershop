@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./OrderPage.scss";
 
-const OrderForm = () => {
+const OrderForm = ({ flowers }) => {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -89,10 +90,9 @@ const OrderForm = () => {
                     <label htmlFor="flowerType" className="order-form__label">
                         Flowers:
                     </label>
-                    LIST OF FLOWERS IN CART GO HERE
-                    {
-                        // Loop through basket of flowers
-                    }
+                    {flowers?.map((flower) => {
+                        return <div>{flower.name}</div>;
+                    })}
                 </div>
                 <div className="order-form__field">
                     <label htmlFor="message" className="order-form__label">
@@ -107,7 +107,9 @@ const OrderForm = () => {
                     />
                 </div>
                 <button type="submit" className="order-form__submit">
-                    Place Order
+                    <Link id="test" to="/">
+                        Place Order
+                    </Link>
                 </button>
             </form>
         </div>

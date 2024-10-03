@@ -10,7 +10,7 @@ const Logo = () => (
     </svg>
 );
 
-const Header = ({ flowerCount, handleSearchClick, search, handleSearchChange }) => {
+const Header = ({ onSearchClick, search, handleSearchChange, cart }) => {
     return (
         <header className="header">
             <Link to="/">
@@ -26,13 +26,13 @@ const Header = ({ flowerCount, handleSearchClick, search, handleSearchChange }) 
                         </Link>
                     </li>
                     <li className="header__nav-item header__nav-item--with-badge">
-                        <a href="#shop" className="header__nav-link">
+                        <a href="#flowers" className="header__nav-link">
                             SHOP
                         </a>
                         <span className="header__nav-badge header__nav-badge--new">NEW</span>
                     </li>
                     <li className="header__nav-item header__nav-item--with-badge">
-                        <a href="#products" className="header__nav-link">
+                        <a href="#flowers" className="header__nav-link">
                             PRODUCTS
                         </a>
                         <span className="header__nav-badge header__nav-badge--sale">SALE</span>
@@ -57,13 +57,15 @@ const Header = ({ flowerCount, handleSearchClick, search, handleSearchChange }) 
                         className="header__search-input"
                         onChange={(e) => handleSearchChange(e.target.value)}
                     />
-                    <button onClick={handleSearchClick}>SEARCH</button>
+                    <button onClick={onSearchClick} type="button" className="header__button">
+                       Search 
+                    </button>
                 </div>
                 <User className="header__icon" />
                 <div className="header__cart">
                     <Link to="order">
                         <ShoppingCart className="header__icon" />
-                        <span className="header__cart-badge">{flowerCount}</span>
+                        <span className="header__cart-badge">{cart.length}</span>
                     </Link>
                 </div>
             </div>
