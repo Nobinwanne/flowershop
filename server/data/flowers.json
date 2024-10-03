@@ -1,1 +1,7 @@
-// data goes here
+[
+  {
+    "name": "Abutilon",
+    "meaning": ["Meditation"],
+    "scientific_name": "Abutilon hybridum"
+  }
+]
