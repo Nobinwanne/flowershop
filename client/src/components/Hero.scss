@@ -18,6 +18,7 @@ body {
 
 .hero-text {
   max-width: 50%;
+  color: black;
 }
 
 .hero-text h1 {
@@ -69,9 +70,13 @@ body {
   margin-bottom: 10px;
 }
 
-.offer h4 {
+.offer {
   font-size: 16px;
   margin-bottom: 10px;
+
+  &__copy {
+    color: black;
+  }
 }
 
 .offer p {
