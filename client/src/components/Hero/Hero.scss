@@ -13,19 +13,17 @@
 
   &__text {
     max-width: 50%;
+    color: black;
   }
-
-  &__headline {
+  &__header {
     font-size: 40px;
     margin-bottom: 20px;
   }
-
   &__copy {
     font-size: 18px;
     margin-bottom: 20px;
     color: #555;
   }
-
   &__cta-button {
     padding: 15px 30px;
     background-color: #f45a38;
@@ -35,15 +33,16 @@
     font-size: 18px;
     cursor: pointer;
     text-decoration: none;
-  }
-  &:hover {
-    background-color: #ff7350;
-  }
-}
 
-.hero-image img {
-  max-width: 450px;
-  border-radius: 5px;
+    &:hover {
+      background-color: #ff7350;
+    }
+  }
+
+  &__image--flower {
+    max-width: 450px;
+    border-radius: 5px;
+  }
 }
 
 .offers {
@@ -57,19 +56,20 @@
 
 .offer {
   text-align: center;
-}
-
-.offer img {
-  width: 50px;
-  margin-bottom: 10px;
-}
-
-.offer h4 {
   font-size: 16px;
   margin-bottom: 10px;
-}
 
-.offer p {
-  font-size: 14px;
-  color: #777;
+  &__icon {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+
+  &__copy {
+    color: black;
+  }
+
+  &__copy--phrase {
+    font-size: 14px;
+    color: #777;
+  }
 }
