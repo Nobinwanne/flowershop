@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Search, User, ShoppingCart } from "lucide-react";
 import "./Header.scss";
@@ -11,9 +10,7 @@ const Logo = () => (
     </svg>
 );
 
-const Header = () => {
-    const [cart, setCart] = useState(0);
-
+const Header = ({ flowerCount }) => {
     return (
         <header className="header">
             <Link to="/">
@@ -58,7 +55,7 @@ const Header = () => {
                 <div className="header__cart">
                     <Link to="order">
                         <ShoppingCart className="header__icon" />
-                        <span className="header__cart-badge">{cart}</span>
+                        <span className="header__cart-badge">{flowerCount}</span>
                     </Link>
                 </div>
             </div>

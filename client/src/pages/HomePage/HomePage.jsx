@@ -1,11 +1,11 @@
 import Hero from "../../components/Hero/Hero.jsx";
 import Products from "../../components/Products/Products.jsx";
 
-const HomePage = () => {
+const HomePage = ({ addFlower }) => {
     return (
         <>
             <Hero />
-            <Products />
+            <Products addFlower={addFlower} />
         </>
     );
 };
