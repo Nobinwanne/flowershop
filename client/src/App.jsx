@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header/Header";
+import Header from "./components/Header/Header.jsx";
 import HomePage from "./pages/HomePage/HomePage.jsx";
 import OrderPage from "./pages/OrderPage/OrderPage.jsx";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage.jsx";
+import Hero from "./components/Hero/Hero.jsx";
 import "./App.css";
 
 function App() {
