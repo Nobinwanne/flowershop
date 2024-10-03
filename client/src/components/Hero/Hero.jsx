@@ -1,6 +1,6 @@
 import React from "react";
-import herotulipimage from "../assets/images/florist_tulip.webp";
-import "../components/Hero.scss";
+import herotulipimage from "../../assets/images/florist_tulip.webp";
+import "./Hero.scss";
 
 function Hero() {
   return (

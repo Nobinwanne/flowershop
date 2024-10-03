@@ -1,13 +1,20 @@
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
-import Hero from "./components/Hero";
+import HomePage from "./pages/HomePage/HomePage.jsx";
+import OrderPage from "./pages/OrderPage/OrderPage.jsx";
+import NotFoundPage from "./pages/NotFoundPage/NotFoundPage.jsx";
+import "./App.css";
 
 function App() {
     return (
-        <>
+        <BrowserRouter>
             <Header />
-            <Hero />
-        </>
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/order" element={<OrderPage />} />
+                <Route path="*" element={<NotFoundPage />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 
