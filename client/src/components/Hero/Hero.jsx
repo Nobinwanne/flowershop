@@ -14,7 +14,7 @@ function Hero() {
           <p className="hero__offer">20% Off For New Members</p>
           <h1 className="hero__header">Your Special Day!</h1>
           <p className="hero__copy">We are here for your Special Day</p>
-          <a href="#" className="hero__cta-button">
+          <a href="#flowers" className="hero__cta-button">
             Start Shopping
           </a>
         </div>
