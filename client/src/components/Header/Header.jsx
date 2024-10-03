@@ -10,7 +10,7 @@ const Logo = () => (
     </svg>
 );
 
-const Header = ({ flowerCount }) => {
+const Header = ({ flowerCount, handleSearchClick, search, handleSearchChange }) => {
     return (
         <header className="header">
             <Link to="/">
@@ -49,7 +49,15 @@ const Header = ({ flowerCount }) => {
                     <label htmlFor="search" className="header__search-label">
                         <Search className="header__icon" />
                     </label>
-                    <input id="search" type="text" placeholder="Search our store" className="header__search-input" />
+                    <input
+                        id="search"
+                        type="text"
+                        placeholder="Search our store"
+                        value={search}
+                        className="header__search-input"
+                        onChange={(e) => handleSearchChange(e.target.value)}
+                    />
+                    <button onClick={handleSearchClick}>SEARCH</button>
                 </div>
                 <User className="header__icon" />
                 <div className="header__cart">

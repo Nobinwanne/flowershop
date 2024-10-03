@@ -8,14 +8,41 @@ import "./App.css";
 
 function App() {
     const [flowerBasket, setFlowerBasket] = useState([]);
+    const [search, setSearch] = useState("");
 
     const handleFlowerBasketChange = (flower) => {
         setFlowerBasket([...flowerBasket, flower]);
     };
 
+    const handleSearchChange = (newSearch) => {
+        setSearch(newSearch);
+    };
+
+    const searchFlowers = async () => {
+        try {
+            const searchObj = {
+                meaning: search,
+            };
+            const response = await axios.post("http://localhost:8090/search", searchObj);
+            console.log(response);
+            setFlowerBasket(response.data);
+        } catch (error) {
+            console.error(error);
+        }
+    };
+
+    const onSearchClick = () => {
+        searchFlowers();
+    };
+
     return (
         <BrowserRouter>
-            <Header flowerBasket={flowerBasket} />
+            <Header
+                flowerBasket={flowerBasket}
+                search={search}
+                handleSearchChange={handleSearchChange}
+                onSearchClick={onSearchClick}
+            />
             <Routes>
                 <Route path="/" element={<HomePage addFlower={handleFlowerBasketChange} />} />
                 <Route path="/order" element={<OrderPage flowerBasket={flowerBasket} />} />

@@ -1,47 +1,47 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .product {
-  &__container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    justify-items: center;
-  }
-
-  &__card {
-    background-color: white;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    text-align: center;
-    width: 200px;
-  }
-
-  &__image {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-  }
-
-  &__price {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-
-  &__button--add-to-cart {
-    padding: 10px 20px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-
-    &:hover {
-      background-color: #218838;
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        justify-items: center;
     }
-  }
+
+    &__card {
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        width: 200px;
+    }
+
+    &__image {
+        width: 10rem;
+        height: 10rem;
+        margin-bottom: 15px;
+    }
+
+    &__price {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    &__button--add-to-cart {
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #218838;
+        }
+    }
 }

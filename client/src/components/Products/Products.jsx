@@ -22,12 +22,19 @@ function Products({ addFlower }) {
     return (
         <div className="product__container">
             {flowers.map((flower) => {
-                <div className="product__card">
-                    <img src="https://via.placeholder.com/150" alt="Product 1" className="product__card--image" />
-                    <h2>{flower.name}</h2>
-                    <h3 className="product__price">$29.99</h3>
-                    <button className="product__button--add-to-cart">Add to Cart</button>
-                </div>;
+                return (
+                    <div className="product__card">
+                        <img src={flower.img} alt="Product 1" className="product__image" />
+                        <h2>{flower.name}</h2>
+                        <h3 className="product__price">$5.99</h3>
+                        {flower.meaning.map((a) => (
+                            <p>{a + " "}</p>
+                        ))}
+                        <button className="product__button--add-to-cart" onClick={handleClick}>
+                            Add to Cart
+                        </button>
+                    </div>
+                );
             })}
         </div>
     );
