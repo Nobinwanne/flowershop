@@ -6,11 +6,11 @@ function Hero() {
   return (
     <>
       <section className="hero">
-        <div className="hero-text">
+        <div className="hero__text">
           <p className="hero__offer">20% Off For New Members</p>
           <h1 className="hero__headline">Your Special Day!</h1>
           <p className="hero__copy">We are here for your Special Day</p>
-          <a href="#" className="cta-button">
+          <a href="#" className="hero__cta-button">
             Start Shopping
           </a>
         </div>
