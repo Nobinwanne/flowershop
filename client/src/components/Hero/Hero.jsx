@@ -29,21 +29,26 @@ function Hero() {
 
       <section className="offers">
         <div className="offer">
-          <img className="offer__icon" src={deliveryicon} alt="Free Delivery" />
+          <img className="offer__icon"
+            src={deliveryicon}
+            alt="Free Delivery" />
           <h4 className="offer__copy">Free Delivery</h4>
           <p className="offer__copy--phrase">
             Free shipping around the world for all orders over $120
           </p>
         </div>
         <div className="offer">
-          <img className="offer__icon" src={ordericon} alt="Online Order" />
+          <img className="offer__icon"
+            src={ordericon}
+            alt="Online Order" />
           <h4 className="offer__copy">Online Order</h4>
           <p className="offer__copy--phrase">
             Don't worry, you can order online by our site
           </p>
         </div>
         <div className="offer">
-          <img className="offer__icon" src={freshnessicon} alt="Freshness" />
+          <img className="offer__icon"
+            src={freshnessicon} alt="Freshness" />
           <h4 className="offer__copy">Freshness</h4>
           <p className="offer__copy--phrase">
             You have fresh flowers in every single order
