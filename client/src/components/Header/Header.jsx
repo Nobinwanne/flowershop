@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Search, User, ShoppingCart } from "lucide-react";
 import "./Header.scss";
@@ -11,9 +10,7 @@ const Logo = () => (
     </svg>
 );
 
-const Header = () => {
-    const [cart, setCart] = useState(0);
-
+const Header = ({ onSearchClick, search, handleSearchChange, cart }) => {
     return (
         <header className="header">
             <Link to="/">
@@ -29,13 +26,13 @@ const Header = () => {
                         </Link>
                     </li>
                     <li className="header__nav-item header__nav-item--with-badge">
-                        <a href="#shop" className="header__nav-link">
+                        <a href="#flowers" className="header__nav-link">
                             SHOP
                         </a>
                         <span className="header__nav-badge header__nav-badge--new">NEW</span>
                     </li>
                     <li className="header__nav-item header__nav-item--with-badge">
-                        <a href="#products" className="header__nav-link">
+                        <a href="#flowers" className="header__nav-link">
                             PRODUCTS
                         </a>
                         <span className="header__nav-badge header__nav-badge--sale">SALE</span>
@@ -52,13 +49,23 @@ const Header = () => {
                     <label htmlFor="search" className="header__search-label">
                         <Search className="header__icon" />
                     </label>
-                    <input id="search" type="text" placeholder="Search our store" className="header__search-input" />
+                    <input
+                        id="search"
+                        type="text"
+                        placeholder="Search our store"
+                        value={search}
+                        className="header__search-input"
+                        onChange={(e) => handleSearchChange(e.target.value)}
+                    />
+                    <button onClick={onSearchClick} type="button" className="header__button">
+                       Search 
+                    </button>
                 </div>
                 <User className="header__icon" />
                 <div className="header__cart">
                     <Link to="order">
                         <ShoppingCart className="header__icon" />
-                        <span className="header__cart-badge">{cart}</span>
+                        <span className="header__cart-badge">{cart.length}</span>
                     </Link>
                 </div>
             </div>

@@ -12,7 +12,7 @@ const readJsonData = () => {
 router.get("/", (_req, _res) => {
   const flowersDataJSON = readJsonData();
   console.log(flowersDataJSON);
-  const firstFifteenFlowers = flowersDataJSON.slice(0, 15);
+  const firstFifteenFlowers = flowersDataJSON.slice(0, 16);
   _res.send(firstFifteenFlowers);
 });
 
@@ -43,8 +43,7 @@ router.post("/search", (_req, _res) => {
   console.log(meaningRegex);
 
   const matchingFlowers = flowersDataJSON.filter((data) => {
-    const nameMatches =
-      name && data.name.toLowerCase().includes(name.toLowerCase()); // Check by name
+    const nameMatches = name && data.name.toLowerCase() === name.toLowerCase(); // Check by name
     const meaningMatches =
       meaningRegex && data.meaning.some((m) => meaningRegex.test(m)); // Check by meaning using regex
 

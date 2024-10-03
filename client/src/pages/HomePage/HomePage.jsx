@@ -8,6 +8,13 @@ const HomePage = () => {
       <Products />
     </>
   );
+const HomePage = ({ addFlower, flowerBasket }) => {
+    return (
+        <>
+            <Hero />
+            <Products addFlower={addFlower} flowerBasket={flowerBasket} />
+        </>
+    );
 };
 
 export default HomePage;
