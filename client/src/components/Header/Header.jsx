@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Search, User, ShoppingCart } from "lucide-react";
 import "./Header.scss";
@@ -11,9 +10,7 @@ const Logo = () => (
     </svg>
 );
 
-const Header = () => {
-    const [cart, setCart] = useState(0);
-
+const Header = ({ flowerCount, handleSearchClick, search, handleSearchChange }) => {
     return (
         <header className="header">
             <Link to="/">
@@ -52,13 +49,21 @@ const Header = () => {
                     <label htmlFor="search" className="header__search-label">
                         <Search className="header__icon" />
                     </label>
-                    <input id="search" type="text" placeholder="Search our store" className="header__search-input" />
+                    <input
+                        id="search"
+                        type="text"
+                        placeholder="Search our store"
+                        value={search}
+                        className="header__search-input"
+                        onChange={(e) => handleSearchChange(e.target.value)}
+                    />
+                    <button onClick={handleSearchClick}>SEARCH</button>
                 </div>
                 <User className="header__icon" />
                 <div className="header__cart">
                     <Link to="order">
                         <ShoppingCart className="header__icon" />
-                        <span className="header__cart-badge">{cart}</span>
+                        <span className="header__cart-badge">{flowerCount}</span>
                     </Link>
                 </div>
             </div>
