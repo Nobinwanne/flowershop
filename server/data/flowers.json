@@ -1,0 +1,667 @@
+[
+  {
+    "name": "Abutilon",
+    "meaning": ["Meditation"],
+    "scientific_name": "Abutilon hybridum"
+  },
+  {
+    "name": "Acacia (Rose, White)",
+    "meaning": ["Friendship", "Elegance"],
+    "scientific_name": "Acacia sp."
+  },
+  {
+    "name": "Acacia (Yellow)",
+    "meaning": ["Concealed love"],
+    "scientific_name": "Acacia sp."
+  },
+  {
+    "name": "Acanthus",
+    "meaning": ["Fine arts", "Artifice"],
+    "scientific_name": "Acanthus mollis"
+  },
+  {
+    "name": "Achillea",
+    "meaning": ["State of war"],
+    "scientific_name": "Achillea sp."
+  },
+  {
+    "name": "Aconite (Monkshood)",
+    "meaning": ["Hatred", "Misanthropy", "Be cautious"],
+    "scientific_name": "Eranthus hyemalis"
+  },
+  {
+    "name": "Adam's Needle",
+    "meaning": ["Best friends"],
+    "scientific_name": "Yucca filamentosa L."
+  },
+  {
+    "name": "Adonis",
+    "meaning": ["Patience", "Humility", "Sad memories"],
+    "scientific_name": "Adonis vernalis"
+  },
+  {
+    "name": "Agrimony",
+    "meaning": ["Gratitude"],
+    "scientific_name": "Agrimonia eupatoria"
+  },
+  {
+    "name": "Alliums",
+    "meaning": ["Patience", "Unity", "Humility"],
+    "scientific_name": "Allium ampeloprasum"
+  },
+  {
+    "name": "Almond Blossom",
+    "meaning": ["Hope", "Contemplation"],
+    "scientific_name": "Prunus dulcis"
+  },
+  {
+    "name": "Aloe",
+    "meaning": ["Sorrow", "Grief"],
+    "scientific_name": "Aloe barbadensis"
+  },
+  {
+    "name": "Alstroemeria",
+    "meaning": ["Wealth", "Devotion", "Friendship"],
+    "scientific_name": "Gomphrena globosa"
+  },
+  {
+    "name": "Amaranth (Globe)",
+    "meaning": ["Immortal love"],
+    "scientific_name": "Gomphrena globosa"
+  },
+  {
+    "name": "Amaryllis",
+    "meaning": ["Splendid beauty"],
+    "scientific_name": "Amaryllis belladonna"
+  },
+  {
+    "name": "Ambrosia",
+    "meaning": ["Reciprocated love"],
+    "scientific_name": "Ambrosia artemisiifolia"
+  },
+  {
+    "name": "Anemone",
+    "meaning": ["Fragile", "Anticipation"],
+    "scientific_name": "Anemone vitifolia"
+  },
+  {
+    "name": "Angelica",
+    "meaning": ["Inspiration"],
+    "scientific_name": "Angelica archangelica"
+  },
+  {
+    "name": "Anthurium",
+    "meaning": ["Hospitality"],
+    "scientific_name": "Malus domestica"
+  },
+  {
+    "name": "Apple Blossom",
+    "meaning": ["Hope", "Good fortune"],
+    "scientific_name": "Malus domestica"
+  },
+  {
+    "name": "Apricot Blossom",
+    "meaning": ["Diffident love"],
+    "scientific_name": "Prunus armeniaca"
+  },
+  {
+    "name": "Arbor Vitae",
+    "meaning": ["True friendship"],
+    "scientific_name": "Thuja occidentalis"
+  },
+  {
+    "name": "Arbutus",
+    "meaning": ["I love thee only"],
+    "scientific_name": "Epigaea repens"
+  },
+  {
+    "name": "Asphodel",
+    "meaning": ["Regret", "Lassitude"],
+    "scientific_name": "Asphodelus fistulosus"
+  },
+  {
+    "name": "Aster",
+    "meaning": ["Love", "Contentment", "Patience"],
+    "scientific_name": "Aster sp."
+  },
+  {
+    "name": "Azalea",
+    "meaning": ["Fragile", "Patience", "Chinese symbol for womanhood"],
+    "scientific_name": "Rhododendron atlanticum"
+  },
+  {
+    "name": "Baby's Breath",
+    "meaning": ["Innocence", "Gladness"],
+    "scientific_name": "Gypsophila paniculata"
+  },
+  {
+    "name": "Bachelor Button (Bluebottle, Cornflower)",
+    "meaning": ["Celibacy", "Anticipation", "Delicacy", "Perfection"],
+    "scientific_name": "Centaurea cyanus"
+  },
+  {
+    "name": "Balm",
+    "meaning": ["Sympathy"],
+    "scientific_name": "Melissa officinalis"
+  },
+  {
+    "name": "Balsam (Impatiens)",
+    "meaning": ["Impatience"],
+    "scientific_name": "Impatiens balsamina"
+  },
+  {
+    "name": "Barberry",
+    "meaning": ["Hot temperament"],
+    "scientific_name": "Berberis thunbergii"
+  },
+  {
+    "name": "Bay Wreath",
+    "meaning": ["Glory", "Reward for goodness"],
+    "scientific_name": "Laurus nobilis"
+  },
+  {
+    "name": "Begonia",
+    "meaning": ["Be cautious", "Deep thinking"],
+    "scientific_name": "Begonia x tuberhybrida"
+  },
+  {
+    "name": "Bells of Ireland",
+    "meaning": ["Good luck", "Best wishes"],
+    "scientific_name": "Moluccella laevis"
+  },
+  {
+    "name": "Bellwort",
+    "meaning": ["Hopelessness"],
+    "scientific_name": "Uvularia grandiflora"
+  },
+  {
+    "name": "Betony",
+    "meaning": ["Surprise"],
+    "scientific_name": "Stachys officinalis"
+  },
+  {
+    "name": "Bindweed (Convolvulus)",
+    "meaning": ["Philander", "Quidnunc", "Perseverance"],
+    "scientific_name": "Calystegia sepium"
+  },
+  {
+    "name": "Bird of Paradise",
+    "meaning": ["Festivity", "Celebration"],
+    "scientific_name": "Strelitzia reginae"
+  },
+  {
+    "name": "Bittersweet Flower",
+    "meaning": ["Truth", "Fact"],
+    "scientific_name": "Solanum dulcamara"
+  },
+  {
+    "name": "Black-Eyed Susan (Rudbeckia)",
+    "meaning": ["Encouragement", "Motivation", "Impartiality"],
+    "scientific_name": "Rudbeckia hirta"
+  },
+  {
+    "name": "Blackthorn (Sloe)",
+    "meaning": ["Asceticism", "Difficulty"],
+    "scientific_name": "Prunus spinosa"
+  },
+  {
+    "name": "Blue Bell (Harebell, Campanula)",
+    "meaning": ["Constancy", "Never ending love", "Gratitude", "Appreciation"],
+    "scientific_name": "Hyacinthoides hispanica"
+  },
+  {
+    "name": "Bouvardia",
+    "meaning": ["Excitement", "Enthusiasm"],
+    "scientific_name": "Bouvardia ternifolia"
+  },
+  {
+    "name": "Burdock",
+    "meaning": ["Boredom", "Importunity"],
+    "scientific_name": "Arctium tomentosum"
+  },
+  {
+    "name": "Buttercup",
+    "meaning": ["Childishness"],
+    "scientific_name": "Ranunculus repens"
+  },
+  {
+    "name": "Butterfly Weed",
+    "meaning": ["Leave me"],
+    "scientific_name": "Asclepias tuberosa"
+  },
+  {
+    "name": "Cactus",
+    "meaning": ["Maternal affection and love"],
+    "scientific_name": "Echinopsis spachiana"
+  },
+  {
+    "name": "Caladium Leaves",
+    "meaning": ["Ravish", "Joyfulness"],
+    "scientific_name": "Caladium bicolor"
+  },
+  {
+    "name": "Calendula (Pot marigold)",
+    "meaning": ["Happiness"],
+    "scientific_name": "Calendula arvensis"
+  },
+  {
+    "name": "Calycanthus",
+    "meaning": ["Benevolence"],
+    "scientific_name": "Calycanthus floridus"
+  },
+  {
+    "name": "Camellia (White)",
+    "meaning": ["Adorable", "Lovable"],
+    "scientific_name": "Camellia japonica, Camellia sp."
+  },
+  {
+    "name": "Camellia (Pink)",
+    "meaning": ["Strong desire"],
+    "scientific_name": "Camellia japonica, Camellia sp."
+  },
+  {
+    "name": "Camellia (Red)",
+    "meaning": ["Excellence", "Perfection"],
+    "scientific_name": "Camellia japonica, Camellia sp."
+  },
+  {
+    "name": "Chamomile (or Camomile)",
+    "meaning": ["Enterprisingness", "Energy in adversity"],
+    "scientific_name": "Anthemis nobilis"
+  },
+  {
+    "name": "Candytuft (Iberis)",
+    "meaning": ["Indifference"],
+    "scientific_name": "Iberis sempervirens"
+  },
+  {
+    "name": "Cardinal Flower",
+    "meaning": ["Eminence"],
+    "scientific_name": "Lobelia cardinalis"
+  },
+  {
+    "name": "Carnation (White)",
+    "meaning": ["Sweetness", "Innocence", "Pure love"],
+    "scientific_name": "Dianthus sp."
+  },
+  {
+    "name": "Carnation (Yellow)",
+    "meaning": ["Disdain", "Rejection"],
+    "scientific_name": "Dianthus sp."
+  },
+  {
+    "name": "Carnation (Pink)",
+    "meaning": ["Unforgettable", "Woman's love"],
+    "scientific_name": "Dianthus sp."
+  },
+  {
+    "name": "Carnation (Red)",
+    "meaning": ["Admiration"],
+    "scientific_name": "Dianthus sp."
+  },
+  {
+    "name": "Carnation (Purple)",
+    "meaning": ["Unpredictability", "Changeable"],
+    "scientific_name": "Dianthus sp."
+  },
+  {
+    "name": "Carnation (Striped)",
+    "meaning": ["Rejected love"],
+    "scientific_name": "Dianthus sp."
+  },
+  {
+    "name": "Cattail",
+    "meaning": ["Prosperity", "Peacefulness"],
+    "scientific_name": "Typha latifolia"
+  },
+  {
+    "name": "Cedar Leaf",
+    "meaning": ["Think of me"],
+    "scientific_name": "Cedrus sp."
+  },
+  {
+    "name": "Celandine (Lesser)",
+    "meaning": ["Forthcoming joys"],
+    "scientific_name": "Ranunculus ficaria"
+  },
+  {
+    "name": "Cherry Blossom",
+    "meaning": ["Good education", "Spiritual beauty"],
+    "scientific_name": "Prunus sp."
+  },
+  {
+    "name": "Chestnut Flower",
+    "meaning": ["Seek justice"],
+    "scientific_name": "Castanea sativa"
+  },
+  {
+    "name": "Chrysanthemum (Bronze)",
+    "meaning": ["Excitement"],
+    "scientific_name": "Chrysanthemum sp."
+  },
+  {
+    "name": "Chrysanthemum (General)",
+    "meaning": ["Cheerfulness", "Optimism", "Wonderful friend", "With love"],
+    "scientific_name": "Chrysanthemum sp."
+  },
+  {
+    "name": "Chrysanthemum (Red)",
+    "meaning": ["Love", "Affection"],
+    "scientific_name": "Chrysanthemum sp."
+  },
+  {
+    "name": "Chrysanthemum (Yellow)",
+    "meaning": ["Slighted love"],
+    "scientific_name": "Chrysanthemum sp."
+  },
+  {
+    "name": "Chrysanthemum (White)",
+    "meaning": ["Trueness"],
+    "scientific_name": "Chrysanthemum sp."
+  },
+  {
+    "name": "Cinnamon",
+    "meaning": ["Beauty"],
+    "scientific_name": "Cinnamomum verum"
+  },
+  {
+    "name": "Clematis",
+    "meaning": ["Ingenuity"],
+    "scientific_name": "Clematis caracasana"
+  },
+  {
+    "name": "Clove",
+    "meaning": ["Dignity"],
+    "scientific_name": "Syzygium aromaticum"
+  },
+  {
+    "name": "Clover (Four leafed)",
+    "meaning": ["Good luck"],
+    "scientific_name": "Trifolium sp."
+  },
+  {
+    "name": "Clover (Five leafed)",
+    "meaning": ["Bad luck"],
+    "scientific_name": "Trifolium sp."
+  },
+  {
+    "name": "Clover (White flower)",
+    "meaning": ["Think of me"],
+    "scientific_name": "Trifolium repens"
+  },
+  {
+    "name": "Cockscomb",
+    "meaning": ["Silliness", "Absurdity"],
+    "scientific_name": "Celosia spicata"
+  },
+  {
+    "name": "Coltsfoot",
+    "meaning": ["Maternal care"],
+    "scientific_name": "Tussilago farfara"
+  },
+  {
+    "name": "Columbine",
+    "meaning": ["Deserted love"],
+    "scientific_name": "Aquilegia sibirica"
+  },
+  {
+    "name": "Coreopsis",
+    "meaning": ["Cheerful"],
+    "scientific_name": "Coreopsis gladiata"
+  },
+  {
+    "name": "Coriander",
+    "meaning": ["Lust"],
+    "scientific_name": "Coriandrum sativum"
+  },
+  {
+    "name": "Cosmos",
+    "meaning": ["Peaceful"],
+    "scientific_name": "Cosmos sulphureus"
+  },
+  {
+    "name": "Crocus",
+    "meaning": ["Prevision", "Gladness", "Cheerfulness"],
+    "scientific_name": "Crocus longiflorus"
+  },
+  {
+    "name": "Crown Imperial",
+    "meaning": ["Powerfulness", "Mightiness"],
+    "scientific_name": "Fritillaria imperialis"
+  },
+  {
+    "name": "Cyclamen",
+    "meaning": ["Goodbye", "Separation"],
+    "scientific_name": "Cyclamen persicum"
+  },
+  {
+    "name": "Cypress",
+    "meaning": ["Mourning", "Despair"],
+    "scientific_name": "Cupressus sp."
+  },
+  {
+    "name": "Daffodil (Jonquil)",
+    "meaning": [
+      "Chivalry",
+      "Unreciprocated love",
+      "Sympathy",
+      "Please love me"
+    ],
+    "scientific_name": "Narcissus jonquilla"
+  },
+  {
+    "name": "Dahlia",
+    "meaning": ["Dignity", "Elegance"],
+    "scientific_name": "Dahlia variabilis"
+  },
+  {
+    "name": "Daisy",
+    "meaning": ["Innocence", "Loyal beauty"],
+    "scientific_name": "Bellis perennis"
+  },
+  {
+    "name": "Dandelion",
+    "meaning": ["Happiness", "Faithfulness"],
+    "scientific_name": "Taraxacum officinale"
+  },
+  {
+    "name": "Daphne Flower",
+    "meaning": ["Glory", "Fame"],
+    "scientific_name": "Daphne mezereum"
+  },
+  {
+    "name": "Delphinium (Larkspur)",
+    "meaning": ["Boldness", "Ardent attachment", "Open heart"],
+    "scientific_name": "Delphinium sp."
+  },
+  {
+    "name": "Dew Plant",
+    "meaning": ["Serenade"],
+    "scientific_name": "Lampranthus roseus"
+  },
+  {
+    "name": "Dog Rose",
+    "meaning": ["Pleasure"],
+    "scientific_name": "Rosa canina"
+  },
+  {
+    "name": "Edelweiss",
+    "meaning": ["Courageous"],
+    "scientific_name": "Leontopodium alpinum"
+  },
+  {
+    "name": "Eglantine (Sweet Briar)",
+    "meaning": ["Spring", "Poetry"],
+    "scientific_name": "Rosa rubiginosa"
+  },
+  {
+    "name": "Elderberry Blossom (Elderflower)",
+    "meaning": ["Kindness", "Humility"],
+    "scientific_name": "Sambucus canadensis"
+  },
+  {
+    "name": "Endive",
+    "meaning": ["Frugality"],
+    "scientific_name": "Leontopodium alpinum"
+  },
+  {
+    "name": "Eremurus (Foxtail lily or Desert candle)",
+    "meaning": ["Endurance"],
+    "scientific_name": "Eremurus himalaicus"
+  },
+  {
+    "name": "Eryngium (Blue hobbit, Sea holly)",
+    "meaning": ["Austerity", "Independence"],
+    "scientific_name": "Eryngium bourgatii"
+  },
+  {
+    "name": "Eucalyptus",
+    "meaning": ["Safeguard", "Protection"],
+    "scientific_name": "Eucalyptus sp."
+  },
+  {
+    "name": "Eupatorium",
+    "meaning": ["Late", "Delay"],
+    "scientific_name": "Eupatorium ligustrinum"
+  },
+  {
+    "name": "Eustoma",
+    "meaning": ["Calmness", "Thoughts"],
+    "scientific_name": "Eustoma grandiflorum"
+  },
+  {
+    "name": "Everlasting Flower",
+    "meaning": ["Remembrances"],
+    "scientific_name": "Helichrysum bracteatum"
+  },
+  {
+    "name": "Eyebright (Euphrasia)",
+    "meaning": ["Cheer up"],
+    "scientific_name": "Euphrasia rostkoviana"
+  },
+  {
+    "name": "Fennel",
+    "meaning": ["Strength"],
+    "scientific_name": "Foeniculum vulgare"
+  },
+  {
+    "name": "Fern",
+    "meaning": ["Sincerity", "Confidence"],
+    "scientific_name": "Cyathea sp., Lygodium sp., Dicksonia sp., etc."
+  },
+  {
+    "name": "Fig",
+    "meaning": ["Argument"],
+    "scientific_name": "Ficus carica"
+  },
+  {
+    "name": "Filbert",
+    "meaning": ["Reconciliation"],
+    "scientific_name": "Corylus maxima"
+  },
+  {
+    "name": "Fir",
+    "meaning": ["Evaluation", "Time"],
+    "scientific_name": "Abies sp."
+  },
+  {
+    "name": "Flax",
+    "meaning": ["Symbolizes domesticity", "Kindness"],
+    "scientific_name": "Linum usitatissimum"
+  },
+  {
+    "name": "Flowering Almond",
+    "meaning": ["Hope"],
+    "scientific_name": "Prunus japonica, Cerasus japonica"
+  },
+  {
+    "name": "Forget-me-not",
+    "meaning": ["True love", "Memories", "Hope"],
+    "scientific_name": "Myosotis sylvatica"
+  },
+  {
+    "name": "Forsythia",
+    "meaning": ["Anticipation"],
+    "scientific_name": "Forsythia europaea"
+  },
+  {
+    "name": "Foxglove (Digitalis)",
+    "meaning": ["Insincerity"],
+    "scientific_name": "Digitalis purpurea"
+  },
+  {
+    "name": "Frangipani",
+    "meaning": ["Protection", "Shelter"],
+    "scientific_name": "Plumeria sp."
+  },
+  {
+    "name": "Freesia",
+    "meaning": ["Spirited", "Trust"],
+    "scientific_name": "Freesia refracta"
+  },
+  {
+    "name": "Fuchsia",
+    "meaning": ["Good taste", "Confiding love"],
+    "scientific_name": "Fuchsia magellanica"
+  },
+  {
+    "name": "Furze",
+    "meaning": ["Anger"],
+    "scientific_name": "Ulex densus"
+  },
+  {
+    "name": "Gardenia",
+    "meaning": ["Secret admiration", "Love"],
+    "scientific_name": "Gardenia jasminoides"
+  },
+  {
+    "name": "Gentian",
+    "meaning": ["Sweetness"],
+    "scientific_name": "Gentiana verna"
+  },
+  {
+    "name": "Gerbera",
+    "meaning": ["Happiness", "Cheerfulness"],
+    "scientific_name": "Gerbera jamesonii"
+  },
+  {
+    "name": "Geranium",
+    "meaning": ["Comfort", "Stupidity"],
+    "scientific_name": "Pelargonium sp."
+  },
+  {
+    "name": "Gillyflower",
+    "meaning": ["Lasting beauty"],
+    "scientific_name": "Dianthus sp."
+  },
+  {
+    "name": "Ginger Flower",
+    "meaning": ["Proud", "Majestic"],
+    "scientific_name": "Zingiber officinale"
+  },
+  {
+    "name": "Gladiolus",
+    "meaning": ["Give me a break", "Strength of character"],
+    "scientific_name": "Gladiolus imbricatus"
+  },
+  {
+    "name": "Gloxinia",
+    "meaning": ["Love at first sight"],
+    "scientific_name": "Sinningia speciosa"
+  },
+  {
+    "name": "Goldenrod",
+    "meaning": ["Encouragement", "Motivation", "Good fortune", "Success"],
+    "scientific_name": "Solidago shortii"
+  },
+  {
+    "name": "Gorse",
+    "meaning": ["Love in all seasons"],
+    "scientific_name": "Ulex europaeus"
+  },
+  {
+    "name": "Grass",
+    "meaning": ["Submission"],
+    "scientific_name": "Cyperus sp., Pennisetum sp., etc."
+  }
+]
