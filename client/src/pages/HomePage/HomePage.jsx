@@ -1,20 +1,14 @@
 import Hero from "../../components/Hero/Hero.jsx";
 import Products from "../../components/Products/Products.jsx";
 
-const HomePage = () => {
+const HomePage = ({ addFlower, flowerBasket }) => {
   return (
     <>
       <Hero />
-      <Products />
+
+      <Products addFlower={addFlower} flowerBasket={flowerBasket} />
     </>
   );
-const HomePage = ({ addFlower, flowerBasket }) => {
-    return (
-        <>
-            <Hero />
-            <Products addFlower={addFlower} flowerBasket={flowerBasket} />
-        </>
-    );
 };
 
 export default HomePage;

@@ -16,16 +16,6 @@ router.get("/", (_req, _res) => {
   _res.send(firstFifteenFlowers);
 });
 
-router.get("/:flowerId", (_req, _res) => {
-  const flowerId = parseInt(_req.params.flowerId, 10);
-  const flowersDataJSON = readJsonData();
-  const selectedFlower = flowersDataJSON.find((data) => {
-    return data.id === flowerId;
-  });
-  console.log(selectedFlower);
-  _res.send(selectedFlower);
-});
-
 router.post("/search", (_req, _res) => {
   console.log(_req.body);
 
