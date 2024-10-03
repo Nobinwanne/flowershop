@@ -2,8 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header.jsx";
 import HomePage from "./pages/HomePage/HomePage.jsx";
 import OrderPage from "./pages/OrderPage/OrderPage.jsx";
+import axios from "axios";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage.jsx";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
@@ -20,20 +21,32 @@ function App() {
 
     const searchFlowers = async () => {
         try {
+            console.log(search);
             const searchObj = {
                 meaning: search,
             };
-            const response = await axios.post("http://localhost:8090/search", searchObj);
+            const response = await axios.post("http://localhost:8090/flowers/search", searchObj);
             console.log(response);
+
             setFlowerBasket(response.data);
         } catch (error) {
             console.error(error);
         }
     };
 
-    const onSearchClick = () => {
-        searchFlowers();
+    const onSearchClick = async () => {
+        await searchFlowers();
     };
+
+    useEffect(() => {
+        const test = async () => {
+            const response = await axios.get("http://localhost:8090/flowers");
+            setFlowerBasket(response.data);
+        };
+        test();
+    }, []);
+
+    console.log(flowerBasket);
 
     return (
         <BrowserRouter>
@@ -44,7 +57,10 @@ function App() {
                 onSearchClick={onSearchClick}
             />
             <Routes>
-                <Route path="/" element={<HomePage addFlower={handleFlowerBasketChange} />} />
+                <Route
+                    path="/"
+                    element={<HomePage addFlower={handleFlowerBasketChange} flowerBasket={flowerBasket} />}
+                />
                 <Route path="/order" element={<OrderPage flowerBasket={flowerBasket} />} />
                 <Route path="*" element={<NotFoundPage />} />
             </Routes>

@@ -2,26 +2,24 @@ import "../Products/Products.scss";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-function Products({ addFlower }) {
+function Products({ addFlower, flowerBasket }) {
     const handleClick = () => {
         addFlower("tes");
     };
 
-    const [flowers, setFlowers] = useState([]);
-
-    useEffect(() => {
-        const test = async () => {
-            const response = await axios.get("http://localhost:8090/flowers");
-            setFlowers(response.data);
-        };
-        test();
-    }, []);
-
-    console.log(flowers);
+    //const [flowers, setFlowers] = useState([]);
+    //
+    //useEffect(() => {
+    //    const test = async () => {
+    //        const response = await axios.get("http://localhost:8090/flowers");
+    //        setFlowers(response.data);
+    //    };
+    //    test();
+    //}, []);
 
     return (
         <div className="product__container">
-            {flowers.map((flower) => {
+            {flowerBasket.map((flower) => {
                 return (
                     <div className="product__card">
                         <img src={flower.img} alt="Product 1" className="product__image" />
