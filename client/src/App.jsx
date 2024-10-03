@@ -1,16 +1,21 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header/Header.jsx";
+import HomePage from "./pages/HomePage/HomePage.jsx";
+import OrderPage from "./pages/OrderPage/OrderPage.jsx";
+import NotFoundPage from "./pages/NotFoundPage/NotFoundPage.jsx";
 import "./App.css";
-import Hero from "./components/Hero/Hero";
-import Header from "./components/Header/Header";
-import Products from "./components/Products/Products";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <Hero />
-      <Products />
-    </>
-  );
+    return (
+        <BrowserRouter>
+            <Header />
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/order" element={<OrderPage />} />
+                <Route path="*" element={<NotFoundPage />} />
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;

@@ -1,11 +1,10 @@
 import React from "react";
 import herotulipimage from "../../assets/images/florist_tulip.webp";
+import "./Hero.scss";
 import deliveryicon from "../../assets/icons/delivery-icon.svg";
 import artistsicon from "../../assets/icons/artists-icon.svg";
 import freshnessicon from "../../assets/icons/freshness-icon.svg";
 import ordericon from "../../assets/icons/order-icon.svg";
-
-import "../../components/Hero/Hero.scss";
 
 function Hero() {
   return (

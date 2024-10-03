@@ -1,4 +1,5 @@
-import React from "react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Search, User, ShoppingCart } from "lucide-react";
 import "./Header.scss";
 
@@ -11,17 +12,21 @@ const Logo = () => (
 );
 
 const Header = () => {
+    const [cart, setCart] = useState(0);
+
     return (
         <header className="header">
-            <div className="header__logo">
-                <Logo />
-            </div>
+            <Link to="/">
+                <div className="header__logo">
+                    <Logo />
+                </div>
+            </Link>
             <nav className="header__nav">
                 <ul className="header__nav-list">
                     <li className="header__nav-item">
-                        <a href="#home" className="header__nav-link">
+                        <Link to="/" className="header__nav-link">
                             HOME
-                        </a>
+                        </Link>
                     </li>
                     <li className="header__nav-item header__nav-item--with-badge">
                         <a href="#shop" className="header__nav-link">
@@ -51,8 +56,10 @@ const Header = () => {
                 </div>
                 <User className="header__icon" />
                 <div className="header__cart">
-                    <ShoppingCart className="header__icon" />
-                    <span className="header__cart-badge">3</span>
+                    <Link to="order">
+                        <ShoppingCart className="header__icon" />
+                        <span className="header__cart-badge">{cart}</span>
+                    </Link>
                 </div>
             </div>
         </header>
