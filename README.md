@@ -1,4 +1,4 @@
-#**Flower Shop Web Application - README**
+#Flower Shop Web Application - README
 
 **Overview**
 
