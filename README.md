@@ -1,6 +1,6 @@
-Flower Shop Web Application - README
+**Flower Shop Web Application - README**
 
-Overview
+**Overview**
 
 This project is a full-stack Flower Shop web application where users can browse a wide variety of flowers, learn about their meanings, add flowers to their cart, and place orders. The application features a modern front-end interface built with React, HTML, SASS, and JavaScript, while the back-end is powered by Node.js and Express. The flower data, including information about more than 300 different flowers, is stored in a JSON file. The app also offers an API for retrieving flower data based on their meanings or general information.
 
@@ -9,7 +9,7 @@ This project was developed in 8 hours as part of a hackathon at BrainStation. Th
 
 
 
-Collaborators
+**Collaborators**
 
 https://github.com/reymaa19
 
@@ -21,10 +21,10 @@ https://github.com/yamunajayan
 
 
 
-Tech Stack
+**Tech Stack**
 
 
-Frontend:
+**Frontend:**
 
 React: A JavaScript library for building user interfaces.
 
@@ -35,7 +35,7 @@ SASS: A CSS preprocessor used to write cleaner and more efficient styles.
 JavaScript: The core scripting language used for dynamic front-end functionality.
 
 
-Backend:
+**Backend:**
 
 Node.js: A JavaScript runtime for building fast and scalable server-side applications.
 
@@ -45,7 +45,7 @@ JSON: Stores flower data as a local JSON file for quick access and easy updates
 
 
 
-API Endpoints
+**API Endpoints**
 
 GET /api/flowers: Fetches the complete list of all flowers.
 
