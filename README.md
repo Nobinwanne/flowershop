@@ -5,9 +5,13 @@ Overview
 This project is a full-stack Flower Shop web application where users can browse a wide variety of flowers, learn about their meanings, add flowers to their cart, and place orders. The application features a modern front-end interface built with React, HTML, SASS, and JavaScript, while the back-end is powered by Node.js and Express. The flower data, including information about more than 300 different flowers, is stored in a JSON file. The app also offers an API for retrieving flower data based on their meanings or general information.
 
 Collaborators
+
 https://github.com/reymaa19
+
 https://github.com/Nobinwanne
+
 https://github.com/CamilaSV
+
 https://github.com/yamunajayan
 
 Tech Stack
