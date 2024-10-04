@@ -9,7 +9,7 @@ This project is a full-stack Flower Shop web application where users can browse 
 
 
 
-**Collaborators**
+## Collaborators
 
 https://github.com/reymaa19
 
@@ -21,7 +21,7 @@ https://github.com/yamunajayan
 
 
 
-**Tech Stack**
+## Tech Stack
 
 
 **Frontend:**
@@ -45,7 +45,7 @@ JSON: Stores flower data as a local JSON file for quick access and easy updates
 
 
 
-**API Endpoints**
+## API Endpoints
 
 GET /api/flowers: Fetches the complete list of all flowers.
 
