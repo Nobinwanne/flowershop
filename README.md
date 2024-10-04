@@ -14,21 +14,37 @@ https://github.com/CamilaSV
 
 https://github.com/yamunajayan
 
+
+
 Tech Stack
 
+
 Frontend:
+
 React: A JavaScript library for building user interfaces.
+
 HTML5: Markup language for structuring web pages.
+
 SASS: A CSS preprocessor used to write cleaner and more efficient styles.
+
 JavaScript: The core scripting language used for dynamic front-end functionality.
 
+
 Backend:
+
 Node.js: A JavaScript runtime for building fast and scalable server-side applications.
+
 Express.js: A minimal and flexible Node.js web application framework for creating APIs and handling requests.
+
 JSON: Stores flower data as a local JSON file for quick access and easy updates
 
+
+
 API Endpoints
+
 GET /api/flowers: Fetches the complete list of all flowers.
+
 POST/api/search: Retrives the complete list of flowers with name or meaning
+
 POST /api/order: Submits the order information after the user has added flowers to the cart.
 
